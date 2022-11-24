@@ -1,25 +1,17 @@
-import logo from './logo.svg';
+
 import './App.css';
-
+import Car from './Car.js';
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
 
+  return (
+ 
+    <div className='body'>
+      
+      <div className='faceBook'>facebook</div>
+        <p className='facebook-text'>facebook helps you connect and share  </p>
+      <p className='facebook-text1'>with the people in your life </p>
+      <Car/>
+    </div>
+    )
+  }
 export default App;

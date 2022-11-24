@@ -1,38 +1,33 @@
-.App {
-  text-align: center;
+.body{
+  max-width: fit-content;
+  max-height: fit-content;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.faceBook{
+  letter-spacing: -2px;
+color: royalblue;
+  position: fixed;
+  top: 300px ;
+  left: 230px;
+  font-size: 90px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.facebook-text{
+  font-size: 20px;
+position: fixed;
+top: 370px;
+left: 230px;
+font-size: 35px;
+color: #1c1e21;
+letter-spacing: 1px;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.facebook-text1{
+  font-size: 20px;
+    position: fixed;
+    top: 415px;
+    left: 230px;
+    font-size: 35px;
+    color: #1c1e21;
+    letter-spacing: 1px;
 }
